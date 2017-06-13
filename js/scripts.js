@@ -30,10 +30,15 @@ $(document).ready(function () {
 });
 
 $('.simple-editor').trumbowyg({
-	btns: ['btnGrp-justify',
-        'btnGrp-lists',
+	btns: [
+        ['viewHTML'],
         ['formatting'],
-        ['link'],
+        'btnGrp-semantic',
         ['insertImage'],
+        'btnGrp-justify',
+        'btnGrp-lists',
+        ['horizontalRule'],
+        ['removeformat'],
+        ['fullscreen']
     ]
 });
