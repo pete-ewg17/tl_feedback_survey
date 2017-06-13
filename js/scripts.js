@@ -30,7 +30,8 @@ $(document).ready(function () {
 });
 
 $('.simple-editor').trumbowyg({
-	btns: [
+	btns: ['btnGrp-justify',
+        'btnGrp-lists',
         ['formatting'],
         ['link'],
         ['insertImage'],
