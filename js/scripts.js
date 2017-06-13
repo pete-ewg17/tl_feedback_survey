@@ -29,7 +29,17 @@ $(document).ready(function () {
 	$('textarea').trumbowyg();
 });
 
-$(document).ready(function () {
-	$(".simple-editor").trumbowyg();
-	btns: ['formatting'];
+$('.simple-editor').trumbowyg({
+	btns: [
+        ['formatting'],
+        'btnGrp-semantic',
+        ['superscript', 'subscript'],
+        ['link'],
+        ['insertImage'],
+        'btnGrp-justify',
+        'btnGrp-lists',
+        ['horizontalRule'],
+        ['removeformat'],
+        ['fullscreen']
+    ]
 });
