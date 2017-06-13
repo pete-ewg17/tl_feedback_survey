@@ -5,6 +5,7 @@ $('#pagepiling').pagepiling({
 	menu: '#menu',
 	anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
 	sectionsColor: ['#f5c979', '#d1d1d1', 'orange', 'yellow'],
+	scrollingSpeed: 1000,
 	navigation: {
 		'position': 'right',
 		'tooltips': ['Team Leader Feedback', 'Staff Feedback', 'Timesheets', 'Photos', 'Publish']

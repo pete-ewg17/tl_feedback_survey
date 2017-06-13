@@ -29,10 +29,10 @@
 	display: block;
 	position: relative;
 	border: 1px solid #DDD;
-	width: 100%;
-	min-height: 300px;
+	min-height: 50vh;
 	margin: 17px auto;
 	background: #fff;
+	text-align: left;
 }
 
 .trumbowyg-box .trumbowyg-editor {
