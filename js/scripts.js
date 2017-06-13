@@ -30,6 +30,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-	$(".simple-editor").trumbowyg
-	btns: [['bold', 'italic', ]['link']]
+	$(".simple-editor").trumbowyg();
+	btns: ['formatting'];
 });
