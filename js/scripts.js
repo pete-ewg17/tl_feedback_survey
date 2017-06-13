@@ -1,14 +1,4 @@
 /*
- * Trumbo WSIWYFG Plugin intialization
- */
-
-$(document).ready(function () {
-	$('#trumbowyg').trumbowyg();
-});
-
-
-
-/*
  * PagePiling Plugin intialization
  */
 $('#pagepiling').pagepiling({
@@ -29,4 +19,17 @@ $('#pagepiling').pagepiling({
 			$('#pp-nav').addClass('custom');
 		}
 	}
+});
+
+/*
+ * Trumbo WSIWYFG Plugin intialization
+ */
+
+$(document).ready(function () {
+	$('textarea').trumbowyg();
+});
+
+$(document).ready(function () {
+	$(".simple-editor").trumbowyg
+	btns: [['bold', 'italic', ]['link']]
 });
