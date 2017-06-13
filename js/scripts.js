@@ -38,7 +38,6 @@ $('.simple-editor').trumbowyg({
         'btnGrp-justify',
         'btnGrp-lists',
         ['horizontalRule'],
-        ['removeformat'],
-        ['fullscreen']
+        ['removeformat']
     ]
 });
